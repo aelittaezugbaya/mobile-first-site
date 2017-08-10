@@ -6,28 +6,126 @@
     <script src="index.js"></script>
     <link rel="stylesheet" href="index.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Marck+Script&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Marck+Script|Roboto+Slab&amp;subset=cyrillic" rel="stylesheet">
     <title>Витуля</title>
   </head>
   <style>
     .jumbotron {
-    background-color: #7986CB;
-    color: #ffffff;
-
+      background-color: #7986CB;
+      color: #ffffff;
+    }
+    body{
+      background-color: #E8EAF6;
+      font-family: 'Roboto Slab',serif;
     }
   </style>
   <body>
+
     <div class="jumbotron text-center">
       <h1 style="font-family: 'Marck Script', cursive">Happy Birthday!</h1>
-      <img src='photo/main.jpg' class="main img-circle img-responsive" width="300px" ></img>
-      <p class='head' style="font-family:'Marck Script', cursive; font-size: 22px;">Надеюсь тебе понравится мой скромный призент, листай вниз!</p>
+      <img src='photo/main.jpg' class="center img-circle img-responsive" width="300px" ></img>
+      <p class='head' style="">Надеюсь тебе понравится мой скромный призент, листай вниз!</p>
+    </div>
+
+    <div class="container-fluid " style="">
+      <div class="col-sm-4">
+        <img src='photo/we1.jpg' class="logo center img-circle img-responsive slideanim slide" width="260px" ></img>
+      </div>
+      <div class='col-sm-8 text-center'>
+        <h2>Пожелания мои</h2>
+        <br>
+        <h4>Желаем радости, везения,
+            Улыбок, счастья и тепла.
+            Пусть светлым будет настроение,
+            Всегда успешными — дела.
+
+            Здоровья, сил и вдохновения!
+            Пусть полной чашей будет дом.
+            Примите наши поздравления
+            Вот этим искренним стихом!
+        </h4>
+        <br>
+        <p>Lorem ipsum..</p>
+      </div>
+
+    </div>
+
+    <div class="container-fluid bg-purple text-center">
+
+        <h3>THE BAND</h3>
+        <p><em>We love music!</em></p>
+        <p>We have created a fictional band website. Lorem ipsum..</p>
+        <br>
+        <div class="row">
+          <div class="col-sm-4">
+            <p><strong>Анна</strong></p><br>
+            <a href="#anna" data-toggle="collapse">
+              <img src="photo/polezhaeva.jpg" class="img-circle friend">
+            </a>
+            <div id="anna" class="collapse">
+              <p>Пожелания</p>
+              <p>Теплые и Приятные</p>
+              <p>Запоминающие</p>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <p><strong>Николай</strong></p><br>
+            <a href="#kolya" data-toggle="collapse">
+              <img src="photo/kolya.jpeg" class="img-circle friend">
+            </a>
+            <div id="kolya" class="collapse">
+              <p>Пожелания</p>
+              <p>Теплые и Приятные</p>
+              <p>Запоминающие</p>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <p><strong>Денис</strong></p><br>
+            <a href="#denis" data-toggle="collapse">
+              <img src="photo/denis.jpg" class="img-circle friend">
+            </a>
+              <div id="denis" class="collapse">
+                <p>Пожелания</p>
+                <p>Теплые и Приятные</p>
+                <p>Запоминающие</p>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <p><strong>Мария</strong></p><br>
+            <a href="#maria" data-toggle="collapse">
+              <img src="photo/maria.jpg" class="img-circle friend">
+            </a>
+              <div id="maria" class="collapse">
+                <p>Пожелания</p>
+                <p>Теплые и Приятные</p>
+                <p>Запоминающие</p>
+              </div>
+          </div>
+
+          <div class="col-sm-4">
+            <p><strong>Юлия</strong></p><br>
+            <a href="#julia" data-toggle="collapse">
+              <img src="photo/Julia.jpg" class="img-circle friend">
+            </a>
+            <div id="julia" class="collapse">
+              <p>Пожелания</p>
+              <p>Теплые и Приятные</p>
+              <p>Запоминающие</p>
+            </div>
+          </div>
+        </div>
+
     </div>
 
   </body>

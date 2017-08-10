@@ -2,3 +2,9 @@
   display: block;
   margin: 0 auto;
 }
+.head{
+  font-family:'Marck Script', cursive;
+  font-size: 22px;
+  margin-top: 15px;
+
+}

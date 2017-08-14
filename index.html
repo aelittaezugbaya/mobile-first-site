@@ -9,6 +9,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -30,7 +32,14 @@
   </style>
   <body>
 
+    <audio controls="controls" id="music"  hidden="true" loop="true" autoplay>
+      <source src="music.mp3" type="audio/mp3"/>
+    </audio>
+
     <div class="jumbotron text-center">
+      <a class="onOff" style="cursor: pointer;z-index:1;">
+        <i class="fa fa-volume-up fa-3x mute" style="color:white;"></i>
+     </a>
       <h1 style="font-family: 'Marck Script', cursive">Happy Birthday!</h1>
       <img src='photo/main.jpg' class="center img-circle img-responsive" width="300px" ></img>
       <p class='head' style="">Надеюсь тебе понравится мой скромный призент, листай вниз!</p>

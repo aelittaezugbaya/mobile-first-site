@@ -24,6 +24,17 @@
 
 }
 
+.ps{
+  background-color: #7986CB;
+  color: #fafafa;
+  font-family: 'Roboto Slab',serif;
+  font-size: 18px;
+}
+
+footer{
+  padding: 16px;
+}
+
 .friend:hover {
     border-color: #E8EAF6;
 }

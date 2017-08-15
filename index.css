@@ -35,6 +35,14 @@ footer{
   padding: 16px;
 }
 
+.logo{
+  border: 10px solid transparent;
+}
+
+.logo:hover{
+    border-color:#C5CAE9;
+}
+
 .friend:hover {
     border-color: #E8EAF6;
 }

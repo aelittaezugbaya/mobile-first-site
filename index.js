@@ -11,9 +11,6 @@ $(document).ready(function(){
     }
   });
 
-
-  
-
   $(window).scroll(function() {
     $(".slideanim").each(function(){
       let pos = $(this).offset().top;
@@ -24,4 +21,12 @@ $(document).ready(function(){
         }
     });
   });
+
+
 })
+
+lightbox.option({
+     'wrapAround': true,
+     'alwaysShowNavOnTouchDevices': true,
+     'albumLabel':'%1 / %2'
+   })

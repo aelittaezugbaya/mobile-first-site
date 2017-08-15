@@ -16,6 +16,9 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <script src="lib/lightbox.min.js"></script>
+    <link href="lib/lightbox.min.css" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css?family=Lobster|Marck+Script|Roboto+Slab&amp;subset=cyrillic" rel="stylesheet">
     <script src="index.js"></script>
     <title>Витуля</title>
@@ -45,10 +48,21 @@
       <p class='head' style="">Надеюсь тебе понравится мой скромный призент, листай вниз!</p>
     </div>
 
-    <div class="container-fluid " style="">
+    <div class="container-fluid " >
       <div class="col-sm-4 slideanim">
-        <img src='photo/we1.jpg' class="logo center img-circle img-responsive " width="260px" ></img>
+        <a href="photo/slides/we1.jpg" data-lightbox="slides">
+          <img src='photo/slides/we1.jpg' class="logo center img-circle img-responsive " width="260px"></img>
+        </a>
       </div>
+      <a href="photo/slides/we2.jpg" data-lightbox="slides"></a>
+      <a href="photo/slides/we3.jpg" data-lightbox="slides"></a>
+      <a href="photo/slides/we4.jpg" data-lightbox="slides"></a>
+      <a href="photo/slides/we4_5.jpg" data-lightbox="slides"></a>
+      <a href="photo/slides/we5.jpg" data-lightbox="slides"></a>
+      <a href="photo/slides/we6.jpg" data-lightbox="slides"></a>
+      <a href="photo/slides/we7.jpg" data-lightbox="slides"></a>
+      <a href="photo/slides/we8.jpg" data-lightbox="slides"></a>
+      <a href="photo/slides/we9.jpg" data-lightbox="slides"></a>
       <div class='col-sm-8 text-center'>
         <h2>Пожелания мои</h2>
         <br>
@@ -74,7 +88,7 @@
         <p><em>Кликай на иконки и увидишь теплые слова!</em></p>
         <p>P.S. Я наверно ужасная подруга, но я надеюсь что я смогла вспонить самый важный и близких друзей на данный момент!</p>
         <br>
-        <div class="row slideanim first">
+        <div class="row slideanim">
 
           <div class="col-sm-4">
             <p style="font-weight: bold;font-size:20px;">Анна</p><br>
@@ -89,6 +103,37 @@
           </div>
 
           <div class="col-sm-4">
+            <p style="font-weight: bold;font-size:20px;"><strong>Мария</strong></p><br>
+            <a href="#maria" data-toggle="collapse">
+              <img src="photo/maria.jpg" class="img-circle friend">
+            </a>
+              <div id="maria" class="collapse">
+                <p>Дорогая моя и любимая Вита!<br>
+                  Я безумно рада , что знаю такого замечательного человека и такую прекрасную девушку , как ты. Я счастлива , что мы с тобой однажды познакомились , а это было 5 лет назад ,и до сих пор дружим . Я несколько об этом не жалею.
+                  В твой день рождения, в твои прекрасные двадцать лет, я хочу пожелать тебе : как можно больше улыбаться, радоваться жизни и просто излучать позитив, и заряжаться энергией от других людей . Пусть твоя "взрослая " жизнь будет , целеустремлённой и лёгкой . Я тебя очень сильно люблю и дорожу нашей дружбой .
+                  С Днём рождения родная , спасибо, что ты просто есть!
+                </p>
+              </div>
+          </div>
+
+          <div class="col-sm-4">
+            <p style="font-weight: bold;font-size:20px;"><strong>Денис</strong></p><br>
+            <a href="#denis" data-toggle="collapse">
+              <img src="photo/denis.jpg" class="img-circle friend">
+            </a>
+              <div id="denis" class="collapse">
+                <p>С днём рождения тебя. Хочу, что бы ты отпраздновала этот день как можно ярче и веселее!
+                  Желаю, что бы каждый день был наполнен позитивными и веселыми моментами!! Потому что, сейчас самое
+                  время наслаждаться жизнью! Слушай свое сердце и делай то, что ты хочешь! Никого не слушай (кроме меня) и
+                  достигай своих целей и мечт. У тебя обязательно все получится! Желаю так же здоровья и большой любви, потому
+                  что без этого никак! И пусть тебя окружают только дорогие тебе люди!!
+                </p>
+              </div>
+          </div>
+        </div>
+        <div class="row slideanim">
+
+          <div class="col-sm-4 col-sm-offset-2">
             <p style="font-weight: bold;font-size:20px;"><strong>Николай</strong></p><br>
             <a href="#kolya" data-toggle="collapse">
               <img src="photo/kolya.jpg" class="img-circle friend">
@@ -101,33 +146,6 @@
           </div>
 
           <div class="col-sm-4">
-            <p style="font-weight: bold;font-size:20px;"><strong>Денис</strong></p><br>
-            <a href="#denis" data-toggle="collapse">
-              <img src="photo/denis.jpg" class="img-circle friend">
-            </a>
-              <div id="denis" class="collapse">
-                <p>Пожелания</p>
-                <p>Теплые и Приятные</p>
-                <p>Запоминающие</p>
-              </div>
-          </div>
-        </div>
-        <div class="row slideanim">
-
-          <div class="col-sm-4 col-sm-offset-2">
-            <p style="font-weight: bold;font-size:20px;"><strong>Мария</strong></p><br>
-            <a href="#maria" data-toggle="collapse">
-              <img src="photo/maria.jpg" class="img-circle friend">
-            </a>
-              <div id="maria" class="collapse">
-                <p>Солнце, желаю чтобы тебя всегда окружали настоящие
-                  и верные друзья(как ты говоришь подарил мне Бог друзей-дебилов),
-                   а также твои мечты и желания исполнялись и я буду всегда рядом!
-                   (Ну только на лето уезжать буду, а так рядом)Люблю тебя❤❤❤</p>
-              </div>
-          </div>
-
-          <div class="col-sm-4">
             <p style="font-weight: bold;font-size:20px;"><strong>Юлия</strong></p><br>
             <a href="#julia" data-toggle="collapse">
               <img src="photo/Julia.jpg" class="img-circle friend">
@@ -136,7 +154,8 @@
               <p>Солнце, желаю чтобы тебя всегда окружали настоящие
                 и верные друзья(как ты говоришь подарил мне Бог друзей-дебилов),
                  а также твои мечты и желания исполнялись и я буду всегда рядом!
-                 (Ну только на лето уезжать буду, а так рядом)Люблю тебя❤❤❤</p>
+                 (Ну только на лето уезжать буду, а так рядом)Люблю тебя❤❤❤
+               </p>
             </div>
           </div>
         </div>
@@ -147,7 +166,7 @@
       <h1 style="font-family: 'Marck Script', cursive; font-size: 40px">И еще немного коплиментов)</h1>
       <h1 style="font-family: 'Marck Script', cursive; font-size: 40px">Оставайся такой же ...</h1>
       <div class='row'>
-        <div class='col-sm-3'>
+        <div class='col-sm-3 slideanim'>
           <div class="thumbnail" style="background-color: #9FA8DA;">
             <a href="photo/zhenstvinaya.jpg" target="_blank">
             <img src="photo/zhenstvinaya.jpg" alt="Lights" style="width:100%">
@@ -156,7 +175,7 @@
             </div>
           </div>
         </div>
-        <div class='col-sm-3'>
+        <div class='col-sm-3 slideanim'>
           <div class="thumbnail" style="background-color: #9FA8DA;">
             <a href="photo/kind.jpg" target="_blank">
             <img src="photo/kind.jpg" alt="Lights" style="width:100%">
@@ -165,7 +184,7 @@
             </div>
           </div>
         </div>
-        <div class='col-sm-3'>
+        <div class='col-sm-3 slideanim'>
           <div class="thumbnail" style="background-color: #9FA8DA;">
             <a href="photo/cheerful.jpg" target="_blank">
             <img src="photo/cheerful.jpg" alt="Lights" style="width:100%">
@@ -174,7 +193,7 @@
             </div>
           </div>
         </div>
-        <div class='col-sm-3'>
+        <div class='col-sm-3 slideanim'>
           <div class="thumbnail" style="background-color: #9FA8DA;">
             <a href="photo/beauty.jpg" target="_blank">
             <img src="photo/beauty.jpg" alt="Lights" style="width:100%">

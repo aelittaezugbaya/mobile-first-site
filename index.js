@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
   let audio = document.getElementById('music');
   $('.onOff').click(function(){
     if($(this).children().hasClass('mute')){
